@@ -5,7 +5,7 @@
 import java.util.*;
 public class exercise5 {
     public static void main(String[] args) {
-        
+
         List myList = new ArrayList<>();
         myList.add("Java");
         myList.add("is");
