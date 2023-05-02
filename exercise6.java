@@ -47,7 +47,6 @@ public class exercise6 {
 
     }
 }
-
             /*              Which of the following statements instantiates a Car Object?
             *       a- Car c = new Car();
             *       b- Car c = new Car("Honda", "Civic", 2020); <---- Correct answer
@@ -55,4 +54,8 @@ public class exercise6 {
             *       d- Car c = Car("Toyota", "Corolla", 2019);
             *       e- Car c = Car.new("Mazda", "CX-5", 2021);
             *       f- Car c = createObject("Nissan", "Sentra", 2018);
+            *
+            *   NOTA: en el codigo sale creado el constructor, por eso la opcion B es la correcta...
+            * si no fuese estado creado, Java genera un constructor por Default y entonces la opcion correcta
+            * seria la A.
             */
