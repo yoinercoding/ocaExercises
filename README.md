@@ -1,1 +1,1 @@
-# ocaExercises
+Exercises for the OCA Certification
