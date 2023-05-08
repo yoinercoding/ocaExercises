@@ -15,7 +15,7 @@ public class exercise11 {
         *   estamos pisando el dato. El resultado de la operacion aritmetica es 3,
         *   luego lo concatena con X que vale 5, por ende el resultado es 53
         */
-        
+
         if(flag = true) {
             System.out.println("Result " + x +(1+2));
         }
