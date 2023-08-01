@@ -62,29 +62,6 @@ public class exercise58 {
         System.out.println(" Fila: " + filaMayor + " Columna: " + colMayor);
         System.out.print("Elemento menor: " + menor);
         System.out.println(" Fila: " + filaMenor + " Columna: " + colMenor);
-
-        //Menor --> Mayor
-        for(int k = 0; k < array.length; k++) {
-            for(int l = 0; l <array[k].length; l++) {
-                for(int h = 0; h <array[l].length; h++) {
-                    for(int f = 0; f <array[h].length; f++) {
-                        int t = 0;
-                        if(array[i][t] > array[k][l]) {
-                            int temp = array[i][t];
-                            array[i][t] = array[k][l];
-                            array[k][l] = array[i][t];
-                        }
-                    }
-                }
-            }
-        }
-            System.out.println("De menor a mayor: ");
-        for (int k = 0; k < array.length; k++) {
-            for (int l = 0; l < array.length ; l++) {
-                System.out.println(array[filas][columnas] + " ");
-            }
-            System.out.println();
-        }
     }
 }
 
