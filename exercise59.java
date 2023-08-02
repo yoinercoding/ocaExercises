@@ -17,15 +17,15 @@ public class exercise59 {
             } else if (b[j] > a[i]) {
                 i++;
             } else {
-                System.out.print(a[i] + " ");
+                System.out.println(a[i] + " ");
                 i++;
                 j++;
             }
         }
     }
     public static void main(String[] args) {
-        int[] a = { 1, 3, 2, 3};
-        int[] b = { 3, 3, 5};
+        int[] a = { 1, 10, 2, 8};
+        int[] b = { 10, 6, 5};
 
         int n = a.length;
         int m = b.length;
