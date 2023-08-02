@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 public class exercise59 {
     /*
      *       Java Programacion orientada a objetos OOP
