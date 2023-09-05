@@ -3,7 +3,6 @@ public class Persona {
     *       Ejemplo Patron de diseño Builder.
     *           Con lombok genera automáticamente el código de construcción con las anotaciones @Data y @Builder
     *
-    *
      */
     private String nombre;
     private int edad;
