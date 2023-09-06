@@ -14,5 +14,32 @@ public class Main {
                 .genero("Masculino")
                 .estadoCivil("Soltero")
                 .build();
+
+        UsuarioDTO usuario2 = new UsuarioDTO.Builder()
+                .nombre("Paula")
+                .apellido("Gonzalez")
+                .email("pgonzalez@gmail.com")
+                .fechaDeNacimiento("1968-01-10")
+                .genero("Femenina")
+                .estadoCivil("Casada")
+                .build();
+
+        UsuarioDTO usuario3 = new UsuarioDTO.Builder()
+                .nombre("Tatiana")
+                .apellido("Perez")
+                .email("tatianaperez@gmail.com")
+                .fechaDeNacimiento("1980-01-02")
+                .genero("Femenina")
+                .estadoCivil("Viuda")
+                .build();
+
+        UsuarioDTO usuario4 = new UsuarioDTO.Builder()
+                .nombre("Pablo")
+                .apellido("Mcallister")
+                .email("pmc@gmail.com")
+                .fechaDeNacimiento("1968-01-10")
+                .genero("Masculino")
+                .estadoCivil("Casado")
+                .build();
     }
 }
