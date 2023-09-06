@@ -1,5 +1,7 @@
 package exampleBuilderPattern;
 import java.util.Objects;
+
+//////////////////////////////////////////////////BUILDER PATTERN///////////////////////////////////////////////////
 public class UsuarioDTO {
     private final String nombre;
     private final String apellido;
@@ -8,6 +10,7 @@ public class UsuarioDTO {
     private final String fechaDeNacimiento;
     private final String genero;
     private final String estadoCivil;
+
     public UsuarioDTO(String nombre, String apellido, String email,
                       String telefono, String fechaDeNacimiento,
                       String genero, String estadoCivil) {
@@ -20,7 +23,6 @@ public class UsuarioDTO {
         this.estadoCivil = estadoCivil;
     }
 
-    //////////////////////////////////////////////////BUILDER PATTERN///////////////////////////////////////////////////
     public UsuarioDTO(Builder builder) {
         this.nombre = builder.nombre;
         this.apellido = builder.apellido;
