@@ -41,5 +41,14 @@ public class Main {
                 .genero("Masculino")
                 .estadoCivil("Casado")
                 .build();
+
+        UsuarioDTO usuario5 = new UsuarioDTO.Builder()
+                .nombre("Romina")
+                .apellido("Perez")
+                .email("rm@gmail.com")
+                .fechaDeNacimiento("1968-01-10")
+                .genero("Femenina")
+                .estadoCivil("Soltera")
+                .build();
     }
 }
