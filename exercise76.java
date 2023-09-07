@@ -1,7 +1,12 @@
 import java.math.BigInteger;
 import java.util.Scanner;
 
+/*
+*       Calculate factorial with BigInteger
+ */
+
 public class exercise76 {
+
     public static void main(String[] args) {
         int n, c;
         BigInteger num = new BigInteger("1");
