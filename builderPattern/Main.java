@@ -1,4 +1,4 @@
-package builderPattern;
+package BuilderPattern;
 
 public class Main {
     /*
