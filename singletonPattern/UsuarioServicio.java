@@ -1,7 +1,8 @@
 package singletonPattern;
 
 public class UsuarioServicio {
-    public void metodoUsuario() {
-        Version.getInstance();
+    private Version version;
+    public UsuarioServicio(Version version) {
+        this.version = version;
     }
 }
