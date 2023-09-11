@@ -1,2 +1,5 @@
-package compositePattern;public interface ElementoGrafico {
+package compositePattern;
+
+public interface ElementoGrafico {
+    void dibujar();
 }
