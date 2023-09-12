@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 public class exercise78 {
     /*
     *       Streams
-    *       Los Java Streams, no son estructuras de datos, sino envolturas alrededor de las fuentes de datos 
+    *       Los Java Streams, no son estructuras de datos, sino envolturas alrededor de las fuentes de datos
     *       y nos permiten procesar los datos de manera más eficiente.
      */
     public static void main(String[] args) {
