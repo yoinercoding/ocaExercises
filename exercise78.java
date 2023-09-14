@@ -11,9 +11,10 @@ public class exercise78 {
      */
     public static void main(String[] args) {
 
-        Stream<String> streamDeStrings = Stream.of("Antonio", "Maria", "Juan", "Pedro")
+        Stream<String> streamDeStrings = Stream.of("Mauricio", "Belen", "Melisa", "Leonardo", "Matias", "Yoiner")
                 .filter(s -> s.contains("a"))
-                .map(s -> s.toUpperCase());
+                .map(s -> s.toLowerCase());
+
 
         List<String> lista = streamDeStrings.collect(Collectors.toList());
         System.out.println("Stream con filter y map = " + lista);
