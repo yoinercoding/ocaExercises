@@ -1,15 +1,15 @@
-package optional;
+package optionalExercise;
 
 import java.util.Optional;
 
 public class DireccionDTO {
-    private Optional<DireccionDTO> direccion;
+    private Optional<String> direccion;
 
-    public DireccionDTO(Optional<DireccionDTO> direccion) {
+    public DireccionDTO(Optional<String> direccion) {
         this.direccion = direccion;
     }
 
-    public Optional<DireccionDTO> getDireccion() {
+    public Optional<String> getDireccion() {
         return direccion;
     }
 }

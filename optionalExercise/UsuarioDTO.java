@@ -2,11 +2,11 @@ package optionalExercise;
 
 import java.util.Optional;
 
-public class Usuario {
+public class UsuarioDTO {
 
     private Optional<DireccionDTO> direccionDTO;
 
-    public Usuario(Optional<DireccionDTO> direccion) {
+    public UsuarioDTO(Optional<DireccionDTO> direccion) {
         this.direccionDTO = direccion;
     }
 
