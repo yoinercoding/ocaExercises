@@ -14,7 +14,7 @@ public class exercise80 {
                                             // ya que deriva de Hashmap por lo tanto tiene clave(indice) y valor.
         List<String> list = new ArrayList<>(); //estructura mas utlizada en java para list (ARRAYLIST)
 
-        //ejemplo
+        //ejemplos
         set.add("Hola");   //solo se guarda este ya que no admite duplicados.
         set.add("Hola");
         set.add("Yoiner"); //se guarda
