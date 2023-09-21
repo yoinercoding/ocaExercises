@@ -14,7 +14,7 @@ public class exercise81 {
 
         for (c = 1 ; c <= n; c++) {
             for (d = 1 ; d <= c; d++) {
-                System.out.print(num + " ");
+                System.out.print(num  + " ");
                 num++;
             }
             System.out.println();
