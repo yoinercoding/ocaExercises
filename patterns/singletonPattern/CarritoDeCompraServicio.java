@@ -1,4 +1,4 @@
-package singletonPattern;
+package patterns.singletonPattern;
 
 public class CarritoDeCompraServicio {
     private Version version;

@@ -1,4 +1,4 @@
-package observerPattern;
+package patterns.observerPattern;
 
 public interface Observable {
     void addObserver(Observer o);

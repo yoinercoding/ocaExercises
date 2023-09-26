@@ -1,4 +1,4 @@
-package compositePattern;
+package patterns.compositePattern;
 
 import java.util.function.Consumer;
 

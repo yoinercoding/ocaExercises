@@ -1,4 +1,4 @@
-package singletonPattern;
+package patterns.singletonPattern;
 
 public class Version {
     private final int major;

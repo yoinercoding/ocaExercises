@@ -1,4 +1,4 @@
-package compositePattern;
+package patterns.compositePattern;
 
 public interface ElementoGrafico {
     void dibujar();

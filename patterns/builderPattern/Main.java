@@ -1,4 +1,4 @@
-package builderPattern;
+package patterns.builderPattern;
 public class Main {
     /*
     *  Builder es un patrón de diseño creacional que nos permite construir objetos complejos paso a paso.

@@ -1,4 +1,4 @@
-package compositePattern;
+package patterns.compositePattern;
 
 public class CampoDeTexto implements ElementoGrafico{
     @Override

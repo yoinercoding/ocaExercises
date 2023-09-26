@@ -1,4 +1,4 @@
-package observerPattern;
+package patterns.observerPattern;
 
 public class Ejemplo3Observer implements Observer {
     @Override
