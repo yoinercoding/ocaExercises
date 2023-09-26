@@ -1,4 +1,4 @@
-package exerciseEnum;
+package enumExercise;
 
 public class exampleEnum {
     /*
