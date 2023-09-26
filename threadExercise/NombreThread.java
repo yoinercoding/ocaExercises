@@ -20,6 +20,6 @@ public class NombreThread extends Thread {
         new NombreThread("Juanita").start();
         new NombreThread("Sabrina").start();
 
-        System.out.println("Termina thread main");
+        System.out.println("Termina thread main \n");
     }
 }
