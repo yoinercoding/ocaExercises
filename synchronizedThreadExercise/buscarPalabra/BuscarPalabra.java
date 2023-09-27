@@ -1,4 +1,4 @@
-package synchronizedThreadExercise.BuscarPalabra;
+package synchronizedThreadExercise.buscarPalabra;
 
 /*
  *                                           Synchronized Thread
