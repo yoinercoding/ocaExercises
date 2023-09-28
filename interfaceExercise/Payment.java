@@ -1,2 +1,6 @@
-package interfaceExercise;public interface Payment {
+package interfaceExercise;
+
+public interface Payment {
+    void createPayment();
+    String obtainPayment();
 }
