@@ -2,7 +2,7 @@ package optionalExercise;
 
 import java.util.Optional;
 
-public class exercise80 {
+public class OptionalExercise {
     /*
     *       OPTIONAL
     *       El concepto de Java Optional hace referencia a una variable que puede tener un valor asignado o que puede
