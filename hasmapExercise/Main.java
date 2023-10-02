@@ -2,7 +2,7 @@ package hasmapExercise;
 
 import java.util.HashMap;
 
-    /*
+    /*                                  Hereda de la interface MAP
     *       En Java se usa HashMap para almacenar elementos en pares clave/valor y puedes acceder a estos elementos
     *           almacenados en un HashMap utilizando la clave del elemento, que es única para cada elemento.
     *       Caracteristicas principales:
