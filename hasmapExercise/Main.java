@@ -30,7 +30,11 @@ public class Main {
         if(hash.containsKey(1000)) {
             System.out.println("Contiene un indice de 1500 y su valor es " + hash.get(1000));
         } else {
-            System.out.println("No hay un valor con el indice indicado " + hash.values());
+            System.out.println("No hay un valor con el indice indicado ");
+        }
+
+        for(Integer indice : hash.keySet()) { //iteramos nuestro hashmap
+            System.out.println(hash.get(indice));
         }
     }
 }
